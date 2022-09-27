@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #323546;
+    min-height: 100vh;
+}
+main{
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(9rem,20%));
+    /* grid-template-rows: repeat(3,min-content); */
+    justify-content: center;
+    gap: 2rem;
+}
+main #title{
+    grid-column: 1/-1;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.025em;
+}
+main .gridItem{
+    padding: 0.3rem;
+    color: rgba(220, 220, 220, 1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 0.125rem solid rgba(220, 220, 220, 0.5);
+    border-radius: 1rem;
+}
+main .gridItem img{
+    width: 60%;
+    aspect-ratio: 1/1;
+    margin-bottom: 1rem;
+}
+main .gridItem h3::before, main .gridItem h3::after{
+    margin: 0 1rem;
+    content: '';
+    display: inline-block;
+    height: 0.15rem;
+    aspect-ratio: 1/1;
+    background-color: currentColor;
+}
+main .gridItem p::before{
+    margin: 0.4rem 0;
+    content: '';
+    display: block;
+    height: 0.05rem;
+    width: 5rem;
+    background-color: currentColor;
+}
+main .gridItem h3{
+    letter-spacing: 0.025em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+main .gridItem h3, main .gridItem h6, main .gridItem p{
+    text-transform: lowercase;
+    font-style: italic;
+    text-align: center;
+}
+main h6{
+    font-style: italic;
+    font-size: 0.7rem;
+    font-weight: normal;  
+}
+@media only screen and (max-width: 650px){
+    :root{
+        font-size: 14px;
+    }
+    main{
+        padding: 3rem 10vw;
+    }
+    main .gridItem h3::before, main .gridItem h3::after{
+        margin: 0 0.5rem;
+    }
+}
+@media only screen and (min-width: 650px) {
+    main{
+        width: 80%;
+        margin-left: 20%;
+    }
+}
