@@ -4,11 +4,9 @@
     font-family: 'Roboto', sans-serif;
 }
 nav{
+    --speed: 2s;
     background-color: #20232e;
     color: white;
-}
-nav>img{
-    aspect-ratio: 1/1;
 }
 nav .navlinks::before{
     content: '';
@@ -38,6 +36,7 @@ nav .navlinks li:hover{
     color: #20232e;
 }
 .toggleButton{
+    transform: translate(0,100%);
     margin-right: 10vw;
     border: none;
     display: none;
@@ -60,6 +59,8 @@ nav .toggleButton img{
         position: relative;
     }
     nav .homeButton{
+        opacity: 0;
+        transition: all var(--speed) ease;
         margin-left: 10vw;
         justify-self: flex-start;
         display: flex;
@@ -73,7 +74,9 @@ nav .toggleButton img{
         display: none;
     }
     nav .toggleButton{
+        opacity: 0;
         display: block;
+        transition: all var(--speed) ease 1.5s;
     }
     nav .navlinks{
         z-index: 1;

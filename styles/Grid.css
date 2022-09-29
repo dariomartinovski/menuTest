@@ -8,10 +8,11 @@ body{
     min-height: 100vh;
 }
 main{
+    min-height: 69vh;
     padding: 5rem 0;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(9rem,20%));
-    /* grid-template-rows: repeat(3,min-content); */
+    /* grid-template-rows: repeat(auto,minmax(min-content,max-content));; */
     justify-content: center;
     gap: 2rem;
 }

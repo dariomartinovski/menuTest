@@ -1,22 +1,22 @@
 const coffees = [
-    {imgSrc: "../images/espressoSmall.png", mkTitle: "еспресо", enTitle: "espresso", price: 60},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"фредо еспресо", enTitle: "fredo espresso", price: 70},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"макијато", enTitle: "macchiato", price: 70},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"мало макијато", enTitle: "short macchiato", price: 60},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"лате макијато", enTitle: "latte macchiato", price: 80},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"лате макијато со вкус", enTitle: "latte macchiato flavor", price: 90},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"капучино", enTitle: "capuccino", price: 80},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"лате капучино", enTitle: "latte capuccino", price: 90},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"фредо капучино", enTitle: "fredo capuccino", price: 80},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"мафијашко", enTitle: "mafijasko", price: 70},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"нескафе", enTitle: "nescafe", price: 80},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"попаренo нескафе", enTitle: "steamed nescafe", price: 60},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"топло чоколадо", enTitle: "hot chocolate", price: 100},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"топло чоколадо плазма", enTitle: "hot chocolate plazma", price: 110},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"топло чоколадо со орео", enTitle: "hot chocolate with oreo", price: 100},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"какао", enTitle: "cocoa", price: 70},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"какао со млеко", enTitle: "cocoa with milk", price: 80},
-    {imgSrc: "../images/espressoSmall.png", mkTitle:"безкофеинско", enTitle: "decaffeinated", price: 70}
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle: "еспресо", enTitle: "espresso", price: 60},
+    {imgSrc: "../images/Coffee/fredoEspresso.png", mkTitle:"фредо еспресо", enTitle: "fredo espresso", price: 70},
+    {imgSrc: "../images/Coffee/macchiato.png", mkTitle:"макијато", enTitle: "macchiato", price: 70},
+    {imgSrc: "../images/Coffee/shortMacchiato.png", mkTitle:"мало макијато", enTitle: "short macchiato", price: 60},
+    {imgSrc: "../images/Coffee/latteMacchiato.png", mkTitle:"лате макијато", enTitle: "latte macchiato", price: 80},
+    {imgSrc: "../images/Coffee/latteMacchiato.png", mkTitle:"лате макијато со вкус", enTitle: "latte macchiato flavor", price: 90},
+    {imgSrc: "../images/Coffee/capuccino.png", mkTitle:"капучино", enTitle: "capuccino", price: 80},
+    {imgSrc: "../images/Coffee/latteCapuccino.png", mkTitle:"лате капучино", enTitle: "latte capuccino", price: 90},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"фредо капучино", enTitle: "fredo capuccino", price: 80},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"мафијашко", enTitle: "mafijasko", price: 70},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"нескафе", enTitle: "nescafe", price: 80},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"попаренo нескафе", enTitle: "steamed nescafe", price: 60},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"топло чоколадо", enTitle: "hot chocolate", price: 100},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"топло чоколадо плазма", enTitle: "hot chocolate plazma", price: 110},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"топло чоколадо со орео", enTitle: "hot chocolate with oreo", price: 100},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"какао", enTitle: "cocoa", price: 70},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"какао со млеко", enTitle: "cocoa with milk", price: 80},
+    {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"безкофеинско", enTitle: "decaffeinated", price: 70}
 ]
 const nonAlhoholic = [
     {imgSrc: "../images/bravo.png", mkTitle:"чај", enTitle: "tea", price: 60},
@@ -41,7 +41,7 @@ const nonAlhoholic = [
 ]
 const waters = [
     {imgSrc: "../images/rosaBottle.png", mkTitle:"пелистерка", enTitle: "pelisterka", price: 50},
-    {imgSrc: "../images/rosaBottle.png", mkTitle:"пелистерка газирана", enTitle: "pelisterka", price: 50},
+    {imgSrc: "../images/rosaBottle.png", mkTitle:"пелистерка газирана", enTitle: "pelisterka sparkling", price: 50},
     {imgSrc: "../images/rosaBottle.png", mkTitle:"роса", enTitle: "rosa", price: 50},
     {imgSrc: "../images/knjazMilos.png", mkTitle:"књаз милош", enTitle: "knjaz milos", price: 50}
 ]
