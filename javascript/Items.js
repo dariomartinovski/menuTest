@@ -19,49 +19,50 @@ const coffees = [
     {imgSrc: "../images/Coffee/espressoSmall.png", mkTitle:"безкофеинско", enTitle: "decaffeinated", price: 70}
 ]
 const nonAlhoholic = [
-    {imgSrc: "../images/Sodas250/CocaCola.png", mkTitle:"кока кола", enTitle: "coca cola", price: 60},
-    {imgSrc: "../images/Sodas250/CocaColaZero.png", mkTitle:"кока кола зеро", enTitle: "coca cola zero", price: 60},
-    {imgSrc: "../images/Sodas250/Schweppes.png", mkTitle:"швепс", enTitle: "schweppes", price: 60},
-    {imgSrc: "../images/Sodas250/SchweppesTangerina.png", mkTitle:"швепс танџерина", enTitle: "schweppes tangerine", price: 60},
-    {imgSrc: "../images/Sodas250/SchweppesTonic.png", mkTitle:"швепс тоник", enTitle: "schweppes tonic", price: 60},
-    {imgSrc: "../images/Sodas250/Fanta.png", mkTitle:"фанта", enTitle: "fanta", price: 60},
-    {imgSrc: "../images/Sodas250/FantaTropical.png", mkTitle:"фанта тропикал", enTitle: "fanta tropical", price: 60},
-    {imgSrc: "../images/Sodas250/FantaShokata.png", mkTitle:"фанта шоката", enTitle: "fanta shokata", price: 60},
-    {imgSrc: "../images/Sodas250/Sprite.png", mkTitle:"спрајт", enTitle: "sprite", price: 60},
-    {imgSrc: "../images/Sodas250/Pepsi.png", mkTitle:"пепси", enTitle: "pepsi", price: 50},
-    {imgSrc: "../images/Sodas250/PepsiZero.png", mkTitle:"пепси зеро", enTitle: "pepsi zero", price: 50},
-    {imgSrc: "../images/Sodas250/Gazoza.png", mkTitle:"газоза", enTitle: "gazoza", price: 50},
-    {imgSrc: "../images/Sodas250/7up.png", mkTitle:"севен ап", enTitle: "seven up", price: 50},
-    {imgSrc: "../images/Sodas250/Mirinda.png", mkTitle:"миринда", enTitle: "mirinda", price: 50},
-    {imgSrc: "../images/Sodas250/Cockta.png", mkTitle:"кокта", enTitle: "cocta", price: 60},
-    {imgSrc: "../images/Sodas250/PellegrinoKalinka.png", mkTitle:"сан пелегрино калинка+портокал", enTitle: "san pellegrino melograno & arancia", price: 90},
-    {imgSrc: "../images/Sodas250/PellegrinoMenta.png", mkTitle:"сан пелегрино лимон+мента", enTitle: "san pellegrino limone & menta", price: 90},
-    {imgSrc: "../images/Sodas250/PellegrinoLimon.png", mkTitle:"сан пелегрино лимоната", enTitle: "san pellegrino limonata", price: 90},
-    {imgSrc: "../images/Sodas250/RedBull.png", mkTitle:"ред бул", enTitle: "red bull", price: 150},
+    {imgSrc: "../images/Sodas/CocaCola.png", mkTitle:"кока кола", enTitle: "coca cola", price: 60},
+    {imgSrc: "../images/Sodas/CocaColaZero.png", mkTitle:"кока кола зеро", enTitle: "coca cola zero", price: 60},
+    {imgSrc: "../images/Sodas/Schweppes.png", mkTitle:"швепс", enTitle: "schweppes", price: 60},
+    {imgSrc: "../images/Sodas/SchweppesTangerina.png", mkTitle:"швепс танџерина", enTitle: "schweppes tangerine", price: 60},
+    {imgSrc: "../images/Sodas/SchweppesTonic.png", mkTitle:"швепс тоник", enTitle: "schweppes tonic", price: 60},
+    {imgSrc: "../images/Sodas/Fanta.png", mkTitle:"фанта", enTitle: "fanta", price: 60},
+    {imgSrc: "../images/Sodas/FantaTropical.png", mkTitle:"фанта тропикал", enTitle: "fanta tropical", price: 60},
+    {imgSrc: "../images/Sodas/FantaShokata.png", mkTitle:"фанта шоката", enTitle: "fanta shokata", price: 60},
+    {imgSrc: "../images/Sodas/Sprite.png", mkTitle:"спрајт", enTitle: "sprite", price: 60},
+    {imgSrc: "../images/Sodas/Pepsi.png", mkTitle:"пепси", enTitle: "pepsi", price: 50},
+    {imgSrc: "../images/Sodas/PepsiZero.png", mkTitle:"пепси зеро", enTitle: "pepsi zero", price: 50},
+    {imgSrc: "../images/Sodas/Gazoza.png", mkTitle:"газоза", enTitle: "gazoza", price: 50},
+    {imgSrc: "../images/Sodas/7up.png", mkTitle:"севен ап", enTitle: "seven up", price: 50},
+    {imgSrc: "../images/Sodas/Mirinda.png", mkTitle:"миринда", enTitle: "mirinda", price: 50},
+    {imgSrc: "../images/Sodas/Cockta.png", mkTitle:"кокта", enTitle: "cocta", price: 60},
+    {imgSrc: "../images/Sodas/PellegrinoKalinka.png", mkTitle:"сан пелегрино калинка+портокал", enTitle: "san pellegrino melograno & arancia", price: 90},
+    {imgSrc: "../images/Sodas/PellegrinoMenta.png", mkTitle:"сан пелегрино лимон+мента", enTitle: "san pellegrino limone & menta", price: 90},
+    {imgSrc: "../images/Sodas/PellegrinoLimon.png", mkTitle:"сан пелегрино лимоната", enTitle: "san pellegrino limonata", price: 90},
+    {imgSrc: "../images/Sodas/RedBull.png", mkTitle:"ред бул", enTitle: "red bull", price: 150},
     {imgSrc: "../images/bravo.png", mkTitle:"чај", enTitle: "tea", price: 60},
-    {imgSrc: "../images/Sodas250/Nektarchinja.png", mkTitle:"нектар", enTitle: "nectar", price: 80},
-    {imgSrc: "../images/Sodas250/Mango.png", mkTitle:"нектар манго", enTitle: "nectar mango", price: 80},
-    {imgSrc: "../images/Sodas250/Cedevita.png", mkTitle:"цедевита", enTitle: "cedevita", price: 50},
-    {imgSrc: "../images/Sodas250/OrangeJuice.png", mkTitle:"цеден портокал", enTitle: "squeezed orange", price: 100},
-    {imgSrc: "../images/Sodas250/LemonJuice.png", mkTitle:"цеден лимон", enTitle: "squeezed lemon", price: 80},
-    {imgSrc: "../images/Sodas250/MixOrangeLemon.png", mkTitle:"цеден микс пл", enTitle: "squeezed mix", price: 120},
+    {imgSrc: "../images/Sodas/Nektarchinja.png", mkTitle:"нектар", enTitle: "nectar", price: 80},
+    {imgSrc: "../images/Sodas/Mango.png", mkTitle:"нектар манго", enTitle: "nectar mango", price: 80},
+    {imgSrc: "../images/Sodas/Cedevita.png", mkTitle:"цедевита", enTitle: "cedevita", price: 50},
+    {imgSrc: "../images/Sodas/OrangeJuice.png", mkTitle:"цеден портокал", enTitle: "squeezed orange", price: 100},
+    {imgSrc: "../images/Sodas/LemonJuice.png", mkTitle:"цеден лимон", enTitle: "squeezed lemon", price: 80},
+    {imgSrc: "../images/Sodas/MixOrangeLemon.png", mkTitle:"цеден микс пл", enTitle: "squeezed mix", price: 120},
 ]
 const waters = [
-    {imgSrc: "../images/Waters250/PelisterkaNegazirana.png", mkTitle:"пелистерка", enTitle: "pelisterka", price: 50},
-    {imgSrc: "../images/Waters250/PelisterkaGazirana.png", mkTitle:"пелистерка газирана", enTitle: "pelisterka sparkling", price: 50},
-    {imgSrc: "../images/Waters250/Rosa.png", mkTitle:"роса", enTitle: "rosa", price: 50},
-    {imgSrc: "../images/Waters250/KnjazWater.png", mkTitle:"књаз милош", enTitle: "knjaz milos", price: 50}
+    {imgSrc: "../images/Waters/PelisterkaNegazirana.png", mkTitle:"пелистерка", enTitle: "pelisterka", price: 50},
+    {imgSrc: "../images/Waters/PelisterkaGazirana.png", mkTitle:"пелистерка газирана", enTitle: "pelisterka sparkling", price: 50},
+    {imgSrc: "../images/Waters/Rosa.png", mkTitle:"роса", enTitle: "rosa", price: 50},
+    {imgSrc: "../images/Waters/KnjazWater.png", mkTitle:"књаз милош", enTitle: "knjaz milos", price: 50}
 ]
 const beers = [
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "скопско", enTitle: "skopsko", price: 90},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "златен даб", enTitle: "zlaten dab", price: 90},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "хајнекен", enTitle: "heineken", price: 130},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "амстел", enTitle: "amstel", price: 100},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "бекс", enTitle: "beck's", price: 80},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "стела", enTitle: "stella", price: 120},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "туборг", enTitle: "tuborg", price: 100},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "скопско кригла (0.5l)", enTitle: "skopsko mug", price: 100},
-    {imgSrc: "../images/amstelBeer.png", mkTitle: "скопско кригла (0.33l)", enTitle: "skopsko small mug", price: 90}
+    {imgSrc: "../images/Beer/skopskoOriginal.png", mkTitle: "скопско", enTitle: "skopsko", price: 90},
+    {imgSrc: "../images/Beer/skopskoSmooth.png", mkTitle: "скопско смут", enTitle: "skopsko smooth", price: 90},
+    {imgSrc: "../images/Beer/zlatenDab.png", mkTitle: "златен даб", enTitle: "zlaten dab", price: 90},
+    {imgSrc: "../images/Beer/heineken.png", mkTitle: "хајнекен", enTitle: "heineken", price: 130},
+    {imgSrc: "../images/Beer/amstel.png", mkTitle: "амстел", enTitle: "amstel", price: 100},
+    {imgSrc: "../images/Beer/becks.png", mkTitle: "бекс", enTitle: "beck's", price: 80},
+    {imgSrc: "../images/Beer/stella.png", mkTitle: "стела", enTitle: "stella", price: 120},
+    {imgSrc: "../images/Beer/tuborg.png", mkTitle: "туборг", enTitle: "tuborg", price: 100},
+    {imgSrc: "../images/Beer/mugBig.png", mkTitle: "скопско кригла (0.5l)", enTitle: "skopsko mug", price: 100},
+    {imgSrc: "../images/Beer/mugSmall.png", mkTitle: "скопско кригла (0.33l)", enTitle: "skopsko small mug", price: 90}
 ]
 const liquors = [
     {imgSrc: "../images/bacardi.png", mkTitle: "коњак", enTitle: "cognac", price: 80},
@@ -126,8 +127,8 @@ const cocktails = [
     {imgSrc: "../images/bravo.png", mkTitle:"аперол шприц", enTitle: "aperol syringe", price: 160},
 ]
 const others = [
-    {imgSrc: "../images/Other250/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: 400},
-    {imgSrc: "../images/Other250/Sladoled.png", mkTitle:"сладолед", enTitle: "ice cream", price: 100},
-    {imgSrc: "../images/Other250/Apetisani.png", mkTitle:"апетисани", enTitle: "appetizers", price: 100},
-    {imgSrc: "../images/Other250/Honey.png", mkTitle:"мед", enTitle: "honey", price: 10}
+    {imgSrc: "../images/Other/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: 400},
+    {imgSrc: "../images/Other/Sladoled.png", mkTitle:"сладолед", enTitle: "ice cream", price: 100},
+    {imgSrc: "../images/Other/Apetisani.png", mkTitle:"апетисани", enTitle: "appetizers", price: 100},
+    {imgSrc: "../images/Other/Honey.png", mkTitle:"мед", enTitle: "honey", price: 10}
 ]
