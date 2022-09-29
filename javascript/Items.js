@@ -47,10 +47,10 @@ const nonAlhoholic = [
     {imgSrc: "../images/Sodas250/MixOrangeLemon.png", mkTitle:"цеден микс пл", enTitle: "squeezed mix", price: 120},
 ]
 const waters = [
-    {imgSrc: "../images/rosaBottle.png", mkTitle:"пелистерка", enTitle: "pelisterka", price: 50},
-    {imgSrc: "../images/rosaBottle.png", mkTitle:"пелистерка газирана", enTitle: "pelisterka sparkling", price: 50},
-    {imgSrc: "../images/rosaBottle.png", mkTitle:"роса", enTitle: "rosa", price: 50},
-    {imgSrc: "../images/knjazMilos.png", mkTitle:"књаз милош", enTitle: "knjaz milos", price: 50}
+    {imgSrc: "../images/Waters250/PelisterkaNegazirana.png", mkTitle:"пелистерка", enTitle: "pelisterka", price: 50},
+    {imgSrc: "../images/Waters250/PelisterkaGazirana.png", mkTitle:"пелистерка газирана", enTitle: "pelisterka sparkling", price: 50},
+    {imgSrc: "../images/Waters250/Rosa.png", mkTitle:"роса", enTitle: "rosa", price: 50},
+    {imgSrc: "../images/Waters250/KnjazWater.png", mkTitle:"књаз милош", enTitle: "knjaz milos", price: 50}
 ]
 const beers = [
     {imgSrc: "../images/amstelBeer.png", mkTitle: "скопско", enTitle: "skopsko", price: 90},
@@ -126,8 +126,8 @@ const cocktails = [
     {imgSrc: "../images/bravo.png", mkTitle:"аперол шприц", enTitle: "aperol syringe", price: 160},
 ]
 const others = [
-    {imgSrc: "../images/cocktail.png", mkTitle:"наргиле", enTitle: "hookah", price: 400},
-    {imgSrc: "../images/cocktail.png", mkTitle:"сладолед", enTitle: "ice cream", price: 100},
-    {imgSrc: "../images/cocktail.png", mkTitle:"апетисани", enTitle: "appetizers", price: 100},
-    {imgSrc: "../images/cocktail.png", mkTitle:"мед", enTitle: "honey", price: 10}
+    {imgSrc: "../images/Other250/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: 400},
+    {imgSrc: "../images/Other250/Sladoled.png", mkTitle:"сладолед", enTitle: "ice cream", price: 100},
+    {imgSrc: "../images/Other250/Apetisani.png", mkTitle:"апетисани", enTitle: "appetizers", price: 100},
+    {imgSrc: "../images/Other250/Honey.png", mkTitle:"мед", enTitle: "honey", price: 10}
 ]
