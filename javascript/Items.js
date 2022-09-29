@@ -126,7 +126,7 @@ const cocktails = [
     {imgSrc: "../images/bravo.png", mkTitle:"аперол шприц", enTitle: "aperol syringe", price: 160},
 ]
 const others = [
-    {imgSrc: "../images/Other250/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: 450},
+    {imgSrc: "../images/Other250/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: 400},
     {imgSrc: "../images/Other250/Sladoled.png", mkTitle:"сладолед", enTitle: "ice cream", price: 100},
     {imgSrc: "../images/Other250/Apetisani.png", mkTitle:"апетисани", enTitle: "appetizers", price: 100},
     {imgSrc: "../images/Other250/Honey.png", mkTitle:"мед", enTitle: "honey", price: 10}

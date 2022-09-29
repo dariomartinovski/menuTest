@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47cb651c-21a6-4947-b3a0-32750f43cd42" name="Changes" comment="Sodas Menu v3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/Items.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/Items.js" afterDir="false" />
-    </list>
+    <list default="true" id="47cb651c-21a6-4947-b3a0-32750f43cd42" name="Changes" comment="Sodas Menu v3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +12,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5249b83f-fb9e-449c-8141-8a777ac87177" />
+        <option name="url" value="https://github.com/andrejpanev8/PlanB-Menu.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -55,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664365335807</updated>
       <workItem from="1664365337304" duration="5155000" />
-      <workItem from="1664449894117" duration="11724000" />
+      <workItem from="1664449894117" duration="12043000" />
     </task>
     <task id="LOCAL-00001" summary="Sodas Menu">
       <created>1664458077595</created>
@@ -85,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664465442928</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Sodas Menu v3">
+      <created>1664472682094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664472682094</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Sodas Menu v3">
+      <created>1664472843535</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664472843535</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
