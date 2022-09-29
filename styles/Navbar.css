@@ -36,7 +36,6 @@ nav .navlinks li:hover{
     color: #20232e;
 }
 .toggleButton{
-    transform: translate(0,100%);
     margin-right: 10vw;
     border: none;
     display: none;
@@ -59,7 +58,6 @@ nav .toggleButton img{
         position: relative;
     }
     nav .homeButton{
-        opacity: 0;
         transition: all var(--speed) ease;
         margin-left: 10vw;
         justify-self: flex-start;
@@ -74,7 +72,6 @@ nav .toggleButton img{
         display: none;
     }
     nav .toggleButton{
-        opacity: 0;
         display: block;
         transition: all var(--speed) ease 1.5s;
     }
