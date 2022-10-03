@@ -11,9 +11,9 @@ const coffees = [
     {imgSrc: "../images/Coffee250/LadnoMakijato.png", mkTitle:"ладно макијато", enTitle: "cold macchiato", price: 70},
     {imgSrc: "../images/Coffee250/Nescafe.png", mkTitle:"нескафе", enTitle: "nescafe", price: 80},
     {imgSrc: "../images/Coffee250/NescafePopareno.png", mkTitle:"попаренo нескафе", enTitle: "steamed nescafe", price: 60},
-    {imgSrc: "../images/noimage.png", mkTitle:"топло чоколадо", enTitle: "hot chocolate", price: 100},
-    {imgSrc: "../images/noimage.png", mkTitle:"топло чоколадо плазма", enTitle: "hot chocolate plazma", price: 110},
-    {imgSrc: "../images/noimage.png", mkTitle:"топло чоколадо со орео", enTitle: "hot chocolate with oreo", price: 100},
+    {imgSrc: "../images/noImage.png", mkTitle:"топло чоколадо", enTitle: "hot chocolate", price: 100},
+    {imgSrc: "../images/noImage.png", mkTitle:"топло чоколадо плазма", enTitle: "hot chocolate plazma", price: 110},
+    {imgSrc: "../images/noImage.png", mkTitle:"топло чоколадо со орео", enTitle: "hot chocolate with oreo", price: 100},
     {imgSrc: "../images/Coffee250/Kakao.png", mkTitle:"какао", enTitle: "cocoa", price: 70},
     {imgSrc: "../images/Coffee250/KakaoMleko.png", mkTitle:"какао со млеко", enTitle: "cocoa with milk", price: 80},
     {imgSrc: "../images/Coffee250/EspressoDecaf.png", mkTitle:"безкофеинско еспресо", enTitle: "decaffeinated espresso",    price: 70}
