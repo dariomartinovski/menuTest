@@ -102,27 +102,25 @@ const liquors = [
     {imgSrc: "../images/Liquors250/deepSeaBlueShot.png", mkTitle: "шат", enTitle: "shot", price: 100}
 ]
 const wines = [
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија бело 0.2", enTitle: "alexandria white", price: 150},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија бело куве 0.2", enTitle: "alexandria white cuvee", price: 250},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија црвено 0.2", enTitle: "alexandria red", price: 150},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија црвено куве 0.2", enTitle: "alexandria red cuvee", price: 250},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија розе 0.2", enTitle: "alexandria rose", price: 150},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија бело 0.7", enTitle: "alexandria white", price: 600},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија 0.7 бело куве", enTitle: "alexandria white cuvee", price: 800},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија црвено 0.7", enTitle: "alexandria red", price: 600},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија црвено куве 0.7", enTitle: "alexandria red cuvee", price: 800},
-    {imgSrc: "../images/beloVino.png", mkTitle: "александрија розе 0.7", enTitle: "alexandria rose", price: 600},
-    {imgSrc: "../images/beloVino.png", mkTitle: "т'га за југ 0.2", enTitle: "t'ga za jug small", price: 150},
-    {imgSrc: "../images/beloVino.png", mkTitle:"т'га за југ 0.7", enTitle: "t'ga za jug big", price: 600},
-    {imgSrc: "../images/beloVino.png", mkTitle: "траминец 0.2", enTitle: "traminec small", price: 150},
-    {imgSrc: "../images/beloVino.png", mkTitle:"траминец 0.7", enTitle: "traminec big", price: 600}
+    {imgSrc: "../images/Wines250/MaloTraminec.png", mkTitle: "александрија траминец 0.2", enTitle: "alexandria traminec", price: 150},
+    {imgSrc: "../images/Wines250/MaloBelo.png", mkTitle: "александрија бело 0.2", enTitle: "alexandria white", price: 150},
+    {imgSrc: "../images/Wines250/MaloTemjanika.png", mkTitle: "александрија темјаника 0.2", enTitle: "alexandria temjanika", price: 150},
+    {imgSrc: "../images/Wines250/MaloRoze.png", mkTitle: "александрија розе 0.2", enTitle: "alexandria rose", price: 150},
+    {imgSrc: "../images/Wines250/MaloCrveno.png", mkTitle: "александрија црвено 0.2", enTitle: "alexandria red", price: 150},
+    {imgSrc: "../images/Wines250/MaloTga.png", mkTitle: "т'га за југ 0.2", enTitle: "t'ga za jug", price: 150},
+    {imgSrc: "../images/Wines250/tikvesTraminec.png", mkTitle: "александрија траминец 0.7", enTitle: "alexandria traminec", price: 600},
+    {imgSrc: "../images/Wines250/alexandriaWhite.png", mkTitle: "александрија бело 0.7", enTitle: "alexandria white", price: 600},
+    {imgSrc: "../images/Wines250/tikvesTemjanika.png", mkTitle: "александрија темјаника 0.7", enTitle: "alexandria temjanika", price: 600},
+    {imgSrc: "../images/Wines250/alexandriaRoze.png", mkTitle: "александрија розе 0.7", enTitle: "alexandria rose", price: 600},
+    {imgSrc: "../images/Wines250/alexandriaRed.png", mkTitle: "александрија црвено 0.7", enTitle: "alexandria red", price: 600},
+    {imgSrc: "../images/Wines250/alexandriaTga.png", mkTitle:"т'га за југ 0.7", enTitle: "t'ga za jug", price: 600},
 ]
 const cocktails = [
-    {imgSrc: "../images/cocktail.png", mkTitle: "bloody mary", enTitle: "rosa", price: 50},
-    {imgSrc: "../images/cocktail.png", mkTitle:"bloody mary", enTitle: "pelisterka", price: 50},
-    {imgSrc: "../images/cocktail.png", mkTitle:"bloody mary", enTitle: "knjaz milos", price: 50},
-    {imgSrc: "../images/cocktail.png", mkTitle:"bloody mary", enTitle: "dobra voda", price: 50},
-    {imgSrc: "../images/bravo.png", mkTitle:"аперол шприц", enTitle: "aperol syringe", price: 160},
+    {imgSrc: "../images/noimage.png", mkTitle: "bloody mary", enTitle: "rosa", price: 50},
+    {imgSrc: "../images/noimage.png", mkTitle:"bloody mary", enTitle: "pelisterka", price: 50},
+    {imgSrc: "../images/noimage.png", mkTitle:"bloody mary", enTitle: "knjaz milos", price: 50},
+    {imgSrc: "../images/noimage.png", mkTitle:"bloody mary", enTitle: "dobra voda", price: 50},
+    {imgSrc: "../images/noimage.png", mkTitle:"аперол шприц", enTitle: "aperol syringe", price: 160},
 ]
 const others = [
     {imgSrc: "../images/Other/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: 400},
