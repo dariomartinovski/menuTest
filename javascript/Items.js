@@ -38,7 +38,7 @@ const nonAlhoholic = [
     {imgSrc: "../images/Sodas/PellegrinoMenta.png", mkTitle:"сан пелегрино лимон+мента", enTitle: "san pellegrino limone & menta", price: 90},
     {imgSrc: "../images/Sodas/PellegrinoLimon.png", mkTitle:"сан пелегрино лимоната", enTitle: "san pellegrino limonata", price: 90},
     {imgSrc: "../images/Sodas/RedBull.png", mkTitle:"ред бул", enTitle: "red bull", price: 150},
-    {imgSrc: "../images/noimage.png", mkTitle:"чај", enTitle: "tea", price: 60},
+    {imgSrc: "../images/noImage.png", mkTitle:"чај", enTitle: "tea", price: 60},
     {imgSrc: "../images/Sodas/Nektarchinja.png", mkTitle:"нектар", enTitle: "nectar", price: 80},
     {imgSrc: "../images/Sodas/Mango.png", mkTitle:"нектар манго", enTitle: "nectar mango", price: 80},
     {imgSrc: "../images/Sodas/Cedevita.png", mkTitle:"цедевита", enTitle: "cedevita", price: 50},
@@ -116,11 +116,11 @@ const wines = [
     {imgSrc: "../images/Wines250/alexandriaTga.png", mkTitle:"т'га за југ 0.7", enTitle: "t'ga za jug", price: 600},
 ]
 const cocktails = [
-    {imgSrc: "../images/noimage.png", mkTitle: "bloody mary", enTitle: "rosa", price: 50},
-    {imgSrc: "../images/noimage.png", mkTitle:"bloody mary", enTitle: "pelisterka", price: 50},
-    {imgSrc: "../images/noimage.png", mkTitle:"bloody mary", enTitle: "knjaz milos", price: 50},
-    {imgSrc: "../images/noimage.png", mkTitle:"bloody mary", enTitle: "dobra voda", price: 50},
-    {imgSrc: "../images/noimage.png", mkTitle:"аперол шприц", enTitle: "aperol syringe", price: 160},
+    {imgSrc: "../images/noImage.png", mkTitle: "bloody mary", enTitle: "rosa", price: 50},
+    {imgSrc: "../images/noImage.png", mkTitle:"bloody mary", enTitle: "pelisterka", price: 50},
+    {imgSrc: "../images/noImage.png", mkTitle:"bloody mary", enTitle: "knjaz milos", price: 50},
+    {imgSrc: "../images/noImage.png", mkTitle:"bloody mary", enTitle: "dobra voda", price: 50},
+    {imgSrc: "../images/noImage.png", mkTitle:"аперол шприц", enTitle: "aperol syringe", price: 160},
 ]
 const others = [
     {imgSrc: "../images/Other/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: 400},
