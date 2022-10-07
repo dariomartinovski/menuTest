@@ -73,7 +73,7 @@ nav .toggleButton img{
     }
     nav .toggleButton{
         display: block;
-        transition: all var(--speed) ease 1.5s;
+        transition: all var(--speed) ease 2s;
     }
     nav .navlinks{
         z-index: 1;

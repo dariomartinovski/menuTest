@@ -19,9 +19,9 @@ main{
     position: relative;
     isolation: isolate;
 }
-.toggleButton{
+/* .toggleButton{
     transform: translate(0,100%);
-}
+} */
 main h1{
     opacity: 0;
     transform: translateY(150%);
@@ -29,7 +29,7 @@ main h1{
     font-family: 'Dancing Script', cursive;
     margin-top: 55vh;
     font-size: 3.3rem;
-    transition: all var(--speed) ease 0.5s;
+    transition: all var(--speed) ease 1s;
 }
 main h4{
     opacity: 0;
@@ -38,7 +38,7 @@ main h4{
     font-size: 1.2rem;
     text-align: center;
     color: rgba(255,255,255,0.9);
-    transition: all var(--speed) ease 1.2s;
+    transition: all var(--speed) ease 1.5s;
 }
 main img{
     top: 0;
@@ -66,8 +66,17 @@ main .gradientOverlay{
     main{
         height: 85vh;
     }
+    nav{
+        min-height: 5rem;
+    }
     nav .homeButton{
-        opacity: 0;
+        position: fixed;
+        z-index: 1;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%,-50%);
+        transform: scale(1.5);
+        opacity: 0.8;
     }
     nav .toggleButton{
         opacity: 0;
