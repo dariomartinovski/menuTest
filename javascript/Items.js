@@ -122,7 +122,7 @@ const cocktails = [
     {imgSrc: "../images/Cocktails/jagerita.png", mkTitle:"jagerita", enTitle: "", price: 180},
     {imgSrc: "../images/Cocktails/beesKnees.png", mkTitle:"bee's knees", enTitle: "", price: 160},
     {imgSrc: "../images/Cocktails/amarettoSour.png", mkTitle:"amaretto sour", enTitle: "", price: 180},
-    {imgSrc: "../images/Cocktails/AperolSpritz.png", mkTitle:"aperol spritz", enTitle: "", price: 160},
+    {imgSrc: "../images/Cocktails/aperolSpritz.png", mkTitle:"aperol spritz", enTitle: "", price: 160},
     {imgSrc: "../images/Cocktails/whiskeySour.png", mkTitle:"whiskey sour", enTitle: "", price: 250}
 ]
 const others = [
