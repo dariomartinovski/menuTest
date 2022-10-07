@@ -14,6 +14,9 @@ footer .planbContacts{
 footer p:first-child{
     margin-bottom: 0.3rem;
 }
+footer a{
+    color: currentColor;
+}
 footer .creators{
     margin: 0.5rem 0;
     text-align: right;
