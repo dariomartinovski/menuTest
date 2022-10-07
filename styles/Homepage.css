@@ -30,7 +30,7 @@ main h1{
     font-family: 'Dancing Script', cursive;
     margin-top: 55vh;
     font-size: 3.3rem;
-    transition: all var(--speed) ease 1s;
+    transition: all var(--speed) ease 1.25s;
 }
 main h4{
     opacity: 0;
@@ -39,7 +39,7 @@ main h4{
     font-size: 1.2rem;
     text-align: center;
     color: rgba(255,255,255,0.9);
-    transition: all var(--speed) ease 1.5s;
+    transition: all var(--speed) ease 1.75s;
 }
 main img{
     top: 0;

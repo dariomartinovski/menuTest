@@ -58,7 +58,7 @@ nav .toggleButton img{
         position: relative;
     }
     nav .homeButton{
-        transition: all var(--speed) ease;
+        transition: all var(--speed) ease 250ms;
         margin-left: 10vw;
         justify-self: flex-start;
         display: flex;
@@ -73,7 +73,7 @@ nav .toggleButton img{
     }
     nav .toggleButton{
         display: block;
-        transition: all var(--speed) ease 2s;
+        transition: all var(--speed) ease 2.25s;
     }
     nav .navlinks{
         z-index: 1;
