@@ -16,7 +16,6 @@ function loadText(){
     homeButton.style.left = "0";
     homeButton.style.transform = "scale(1)";
     homeButton.style.opacity = "1";
-    homeButton.style.marginLeft = "10vw";
     setTimeout( () => homeButton.style.position = "static",2000);
 
 }
