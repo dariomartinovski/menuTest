@@ -20,9 +20,6 @@ else if((title.textContent).includes("Жестоко")){
 else if((title.textContent).includes("Вино")){
     drinks=wines;
 }
-else if((title.textContent).includes("Коктели")){
-    drinks=cocktails;
-}
 else if((title.textContent).includes("Друго")){
     drinks=others;
 }

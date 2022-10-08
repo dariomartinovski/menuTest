@@ -116,14 +116,14 @@ const wines = [
     {imgSrc: "../images/Wines/alexandriaTga.png", mkTitle:"т'га за југ 0.7", enTitle: "t'ga za jug", price: "600.00"},
 ]
 const cocktails = [
-    {imgSrc: "../images/Cocktails/pinaColada.png", mkTitle: "pina colada", enTitle: "", price: "180.00"},
-    {imgSrc: "../images/Cocktails/blueLagoon.png", mkTitle:"blue lagoon", enTitle: "", price: "160.00"},
-    {imgSrc: "../images/Cocktails/longIsland.png", mkTitle:"long island", enTitle: "", price: "160.00"},
-    {imgSrc: "../images/Cocktails/jagerita.png", mkTitle:"jagerita", enTitle: "", price: "180.00"},
-    {imgSrc: "../images/Cocktails/beesKnees.png", mkTitle:"bee's knees", enTitle: "", price: "160.00"},
-    {imgSrc: "../images/Cocktails/amarettoSour.png", mkTitle:"amaretto sour", enTitle: "", price: "180.00"},
-    {imgSrc: "../images/Cocktails/aperolSpritz.png", mkTitle:"aperol spritz", enTitle: "", price: "160.00"},
-    {imgSrc: "../images/Cocktails/whiskeySour.png", mkTitle:"whiskey sour", enTitle: "", price: "250.00"}
+    {imgSrc: "../images/Cocktails/pinaColada.png", title: "Pina colada", ingredients:["Light rum","Coconut milk","Pineapple"], price: "180.00"},
+    {imgSrc: "../images/Cocktails/blueLagoon.png", title:"Blue lagoon", ingredients:["Vodka","Blue curacao","Lemonade","Cherry"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/longIsland.png", title:"Long island", ingredients:["Vodka","Light rum","Gin","Tequila","Lemon juice","Coca cola"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/jagerita.png", title:"Jägerita", ingredients:["Jägermeister","Cointreau","Lime juice","Simple syrup"], price: "180.00"},
+    {imgSrc: "../images/Cocktails/beesKnees.png", title:"Bee's knees", ingredients:["Gold rum","Orange juice","Lime juice","Triple sec"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/amarettoSour.png", title:"Amaretto sour", ingredients:["Amaretto","Sour mix"], price: "180.00"},
+    {imgSrc: "../images/Cocktails/aperolSpritz.png", title:"Aperol spritz", ingredients:["Aperol","Prosecco","Soda water"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/whiskeySour.png", title:"Whiskey sour", ingredients:["Blended wiskey","Lemon juice","Powdered sugar","Cherry","Lemon"], price: "250.00"}
 ]
 const others = [
     {imgSrc: "../images/Other/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: "400.00"},

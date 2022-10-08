@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #323546;
+    min-height: 100vh;
+}
+main{
+    min-height: 69vh;
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,22%));
+    /* grid-template-rows: repeat(auto,minmax(min-content,max-content));; */
+    justify-content: center;
+    gap: 2rem;
+}
+main #title{
+    grid-column: 1/-1;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.025em;
+}
+main .gridItem{
+    padding: 0.3rem;
+    color: rgba(220, 220, 220, 1);
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border: 0.125rem solid rgba(220, 220, 220, 0.5);
+    border-radius: 1rem;
+}
+main .gridItem h2{
+    box-sizing: border-box;
+    padding: 0.3rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+main .gridItem .pictureIngredients{
+    margin: 1rem 4%;
+    width: 92%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+main .gridItem .pictureIngredients .ingredients ul{
+    margin: 0.3rem 0 0 1rem;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+main .gridItem .pictureIngredients li::marker{
+    content: '- ';
+}
+main .gridItem .pictureIngredients img{
+    width: 100%;
+}
+main .gridItem p::before{
+    margin: 0.4rem auto;
+    content: '';
+    display: block;
+    height: 0.05rem;
+    width: 50%;
+    background-color: currentColor;
+}
+main .gridItem p{
+    text-align: center;
+}
+@media only screen and (max-width: 650px){
+    :root{
+        font-size: 14px;
+    }
+    main{
+        padding: 3rem 10vw;
+    }
+    main .gridItem .pictureIngredients img{
+        object-fit: contain;
+        max-height: 6rem;
+    }
+}
+@media only screen and (max-width: 850px){
+    main .gridItem .pictureIngredients{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    main .gridItem .pictureIngredients .ingredients{
+        margin: 0 auto;
+    }
+    main .gridItem .pictureIngredients img{
+        object-fit: contain;
+        max-height: 7rem;
+    }
+}
+@media only screen and (min-width: 650px) {
+    main{
+        width: 80%;
+        margin-left: 20%;
+    }
+}
