@@ -79,6 +79,17 @@ main .gridItem p{
         max-height: 6rem;
     }
 }
+@media only screen and (max-width: 388px){
+    main{
+        grid-template-columns: repeat(auto-fit,minmax(8rem,22%));
+    }
+}
+@media only screen and (min-width: 650px) {
+    main{
+        width: 80%;
+        margin-left: 20%;
+    }
+}
 @media only screen and (max-width: 850px){
     main .gridItem .pictureIngredients{
         grid-template-columns: 1fr;
@@ -90,11 +101,5 @@ main .gridItem p{
     main .gridItem .pictureIngredients img{
         object-fit: contain;
         max-height: 7rem;
-    }
-}
-@media only screen and (min-width: 650px) {
-    main{
-        width: 80%;
-        margin-left: 20%;
     }
 }
