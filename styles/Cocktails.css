@@ -48,6 +48,9 @@ main .gridItem .pictureIngredients{
 main .gridItem .pictureIngredients .ingredients ul{
     margin: 0.3rem 0 0 1rem;
     font-size: 0.9rem;
+    /* text-transform: capitalize; */
+}
+main .gridItem li::first-letter{
     text-transform: capitalize;
 }
 main .gridItem .pictureIngredients li::marker{

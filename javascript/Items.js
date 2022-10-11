@@ -88,6 +88,7 @@ const liquors = [
     {imgSrc: "../images/Liquors/tequilaMendoza.png", mkTitle: "текила", enTitle: "tequila", price: "70.00"},
     {imgSrc: "../images/Liquors/campari.png", mkTitle: "кампари", enTitle: "campari", price: "80.00"},
     {imgSrc: "../images/Liquors/jackDaniels.png", mkTitle: "џек даниелс", enTitle: "jack daniels", price: "200.00"},
+    {imgSrc: "../images/Liquors/jimBeam.png", mkTitle: "џим бим", enTitle: "jim beam", price: "180.00"},
     {imgSrc: "../images/Liquors/jameson.png", mkTitle: "џејмсон", enTitle: "jameson", price: "180.00"},
     {imgSrc: "../images/Liquors/ballantines.png", mkTitle: "балантајн", enTitle: "ballantines", price: "150.00"},
     {imgSrc: "../images/Liquors/redLabel.png", mkTitle: "џони вокер", enTitle: "johnie walker", price: "180.00"},
@@ -116,14 +117,14 @@ const wines = [
     {imgSrc: "../images/Wines/alexandriaTga.png", mkTitle:"т'га за југ 0.7", enTitle: "t'ga za jug", price: "600.00"},
 ]
 const cocktails = [
-    {imgSrc: "../images/Cocktails/pinaColada.png", title: "Pina colada", ingredients:["Light rum","Coconut milk","Pineapple"], price: "180.00"},
-    {imgSrc: "../images/Cocktails/blueLagoon.png", title:"Blue lagoon", ingredients:["Vodka","Blue curacao","Lemonade","Cherry"], price: "160.00"},
-    {imgSrc: "../images/Cocktails/longIsland.png", title:"Long island", ingredients:["Vodka","Light rum","Gin","Tequila","Lemon juice","Coca cola"], price: "160.00"},
-    {imgSrc: "../images/Cocktails/jagerita.png", title:"Jägerita", ingredients:["Jägermeister","Cointreau","Lime juice","Simple syrup"], price: "180.00"},
-    {imgSrc: "../images/Cocktails/beesKnees.png", title:"Bee's knees", ingredients:["Gold rum","Orange juice","Lime juice","Triple sec"], price: "160.00"},
-    {imgSrc: "../images/Cocktails/amarettoSour.png", title:"Amaretto sour", ingredients:["Amaretto","Sour mix"], price: "180.00"},
-    {imgSrc: "../images/Cocktails/aperolSpritz.png", title:"Aperol spritz", ingredients:["Aperol","Prosecco","Soda water"], price: "160.00"},
-    {imgSrc: "../images/Cocktails/whiskeySour.png", title:"Whiskey sour", ingredients:["Blended wiskey","Lemon juice","Powdered sugar","Cherry","Lemon"], price: "250.00"}
+    {imgSrc: "../images/Cocktails/pinaColada.png", title: "Pina colada", ingredients:["White rum","Coconut purée","Pineapple juice"], price: "180.00"},
+    {imgSrc: "../images/Cocktails/blueLagoon.png", title:"Blue lagoon", ingredients:["Vodka","Blue curacao","Lemon juice","Lemon lime soda"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/longIsland.png", title:"Long island", ingredients:["Vodka","White rum","Gin","Tequila","Lemon juice","simple syrup","Coca cola"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/jagerita.png", title:"Jägerita", ingredients:["Jägermeister","Triple sec","Lemon juice","Simple syrup"], price: "180.00"},
+    {imgSrc: "../images/Cocktails/beesKnees.png", title:"Bee's knees", ingredients:["Gin","Lemon juice","Triple sec","Honey"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/amarettoSour.png", title:"Amaretto sour", ingredients:["Amaretto","Lemon juice","Simple syrup"], price: "180.00"},
+    {imgSrc: "../images/Cocktails/aperolSpritz.png", title:"Aperol spritz", ingredients:["Aperol","White wine","Soda water"], price: "160.00"},
+    {imgSrc: "../images/Cocktails/whiskeySour.png", title:"Whiskey sour", ingredients:["Whiskey","Lemon juice","Simple syrup"], price: "250.00"}
 ]
 const others = [
     {imgSrc: "../images/Other/Shisha.png", mkTitle:"наргиле", enTitle: "hookah", price: "400.00"},
