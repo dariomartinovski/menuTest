@@ -6,10 +6,10 @@
 body{
     background-color: #323546;
     min-height: 100vh;
+    position: relative;
 }
 main{
-    min-height: 69vh;
-    padding: 5rem 0;
+    padding: 5rem 0 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(9rem,20%));
     /* grid-template-rows: repeat(auto,minmax(min-content,max-content));; */
@@ -79,7 +79,7 @@ main h6{
         font-size: 14px;
     }
     main{
-        padding: 3rem 10vw;
+        padding: 3rem 10vw 9rem;
     }
     main .gridItem h3::before, main .gridItem h3::after{
         margin: 0 0.5rem;

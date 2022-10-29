@@ -7,6 +7,7 @@ body{
     background-color: #20232e;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 main{
     display: flex;
@@ -59,7 +60,6 @@ main .gradientOverlay{
     background: linear-gradient(0deg, rgba(0,0,0,1),rgba(0,0,0,0));
     z-index: -1;
 }
-
 @media only screen and (max-width: 650px){
     :root{
         font-size: 14px;
@@ -83,6 +83,42 @@ main .gradientOverlay{
 @media only screen and (min-width: 650px) {
     main{
         width: 80%;
+        margin-left: 20%;
+    }
+}
+
+footer{
+    background-color: #20232e;
+    padding: 0.5rem 10vw;
+    color: rgba(255,255,255,0.6);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 0.6rem;
+}
+footer .planbContacts{
+    opacity: 0.8;
+    margin: 0.5rem 0;
+}
+footer p:first-child{
+    margin-bottom: 0.3rem;
+}
+footer a{
+    color: currentColor;
+}
+footer .creators{
+    margin: 0.5rem 0;
+    text-align: right;
+    opacity: 0.8;
+}
+@media only screen and (max-width: 650px){
+    :root{
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 650px){
+    footer{
+        font-size: 0.7rem;
         margin-left: 20%;
     }
 }

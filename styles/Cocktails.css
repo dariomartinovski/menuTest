@@ -6,10 +6,10 @@
 body{
     background-color: #323546;
     min-height: 100vh;
+    position: relative;
 }
 main{
-    min-height: 69vh;
-    padding: 5rem 0;
+    padding: 5rem 0 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(10rem,22%));
     /* grid-template-rows: repeat(auto,minmax(min-content,max-content));; */
@@ -75,7 +75,7 @@ main .gridItem p{
         font-size: 14px;
     }
     main{
-        padding: 3rem 10vw;
+        padding: 3rem 10vw 9rem;
     }
     main .gridItem .pictureIngredients img{
         object-fit: contain;
